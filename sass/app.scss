@@ -1,0 +1,142 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+body {
+    font-size: 13px;
+}
+
+.height_100vh {
+    height: 100vh!important;
+}
+.pd-top-20 {
+    padding-top: 20px;
+}
+.min-height-100vh {
+    min-height: 100vh;
+}
+.no-margin {
+    margin: 0px!important;
+}
+
+#app {
+    overflow: hidden;
+}
+
+.main-app {
+    overflow: hidden;
+    padding-top: 20px;
+    .head-title {
+        padding: 0px 20px;
+        font-weight: 600;
+    }
+}
+.el-menu-vertical {
+    border-right: 1px solid #EEE;
+}
+.el-menu-item-group__title {
+    padding-bottom: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.logo {
+    width: 100%;
+    display: block;
+    color: #FFF;
+    font-weight: 700;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    font-size: 42px;
+}
+.cap_title:first-letter {
+    text-transform: capitalize;
+}
+.cap_all {
+    text-transform: capitalize;
+}
+.salary {
+    font-weight: bold;
+    color: #f55252;
+    font-size: 18px;
+}
+.main {
+    overflow: hidden;
+    background-color: #eef1f6;
+    .container-app {
+        background-color: #FFF;
+        padding-bottom: 30px;
+    }
+}
+.el-menu-item-group {
+    .el-menu-item {
+        padding: 0px;
+        padding-left: 0px!important;
+        a {
+            color: #48576a;
+            display: block;
+            padding: 0px 20px;
+            &:hover, &:active, &:focus {
+                text-decoration: none;
+            }
+        }
+    }
+    .is-active {
+        background-color: #d1dbe5;
+        a {
+            color: #3097D1;
+        }
+    }
+}
+
+.box-search {
+    border: 1px solid #dfe6ec;
+    padding: 20px 20px 0px 20px;
+}
+.el-table {
+    font-size: 13px;
+}
+.info-box {
+    background-color: #EEE;
+    background-color: rgba(238, 238, 238, 0.56);
+    border: 1px solid #EEE;
+    .info-box-icon {
+        float: right;
+        i {
+            font-size: 31px;
+            color: #B0B0B0;
+        }
+    }
+    .info-box-stats {
+        float: left;
+        p {
+            font-size: 28px;
+            margin-bottom: 14px;
+            color: #374051;
+            font-weight: 300;
+            margin-bottom: 0px;
+        }
+        span.info-box-title {
+            display: block;
+            font-size: 13px;
+            margin-bottom: 10px;
+            color: #B0B0B0;
+        }
+    }
+    .info-box-progress {
+        clear: both;
+    }
+}
+.progress-xs {
+    height: 5px;
+    margin-bottom: 0px;
+}
+.progress-bar-info {
+    background-color: #5bc0de;
+}
